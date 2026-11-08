@@ -5,7 +5,7 @@ A thread-safe, per-key rate limiter for protecting calls to broker and data-prov
 Brokers and data providers have a cap on how often we can call their APIs, e.g. 200 requests a minute. If we go over, requests failing. Build a rate limiter our code would call before making a request.
 
 # Algorithm: Sliding window log
-Pros: High precesion. High speed.
+Pros: High precesion. High speed. \
 Cons: High memory usage (one timestamp per accepted request, up to `limit` per key).
 
 # Testing
