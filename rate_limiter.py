@@ -12,7 +12,7 @@ class RateLimiter:
     
     def allow(self, key: str) -> bool:
         with self.lock:
-            now = time.time()
+            now = time.monotonic()
             window_start = now - self.window_seconds
             request_log = self.requests[key]
             
