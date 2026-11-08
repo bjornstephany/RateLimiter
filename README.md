@@ -5,4 +5,4 @@ Brokers and data providers have a cap on how often we can call their APIs, e.g. 
 3.⁠ ⁠Pick an algorithm and be ready to say why you chose it over the others.
 4.⁠ ⁠It must be safe to call from several threads at once.
 5.⁠ ⁠Write tests, including ones that don't actually wait for time to pass.
-6.⁠ ⁠Add a short README: what you chose, pros cons, and think a little bit of edge cases that would change the implementation like simultanious users using the function at once etc, dont have to over engineer just describe some scenarios you can think of.
+6.⁠ ⁠Add a short README: what you chose, pros cons, and think a little bit of edge cases that would change the implementation like simultaneous users using the function at once etc, dont have to over engineer just describe some scenarios you can think of.
